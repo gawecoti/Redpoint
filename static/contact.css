@@ -1,0 +1,149 @@
+.contact {
+	margin-top: 80px;
+}
+
+/*Gmaps*/
+#map{
+  display: block;
+  width: 50%;
+  height: 350px;
+  margin: 0 30px 40px 0;
+  -moz-box-shadow: 0px 5px 20px #ccc;
+  -webkit-box-shadow: 0px 5px 20px #ccc;
+  box-shadow: 0px 5px 20px #ccc;
+}
+
+/*Information box*/
+.information {
+	background: #DDDDDD;
+	padding: 10px 0px 10px 30px;
+	/* Firefox v3.5+ */
+	-moz-box-shadow:inset 2px 2px 4px rgba(0,0,0,0.3);
+	/* Safari v3.0+ and by Chrome v0.2+ */
+	-webkit-box-shadow:inset 2px 2px 4px rgba(0,0,0,0.3);
+	/* Firefox v4.0+ , Safari v5.1+ , Chrome v10.0+, IE v10+ and by Opera v10.5+ */
+	box-shadow:inset 2px 2px 4px rgba(0,0,0,0.3);
+	margin-bottom: 20px;
+}
+
+.information:hover {
+	background: #CCCCCC;
+	transition: all 0.3 ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;	
+}
+
+.information h3 {
+	margin: 0;
+}
+
+.information a {
+	text-decoration: none;
+	color: #CC0000;
+}
+
+.information a:hover {
+	color:#660000;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+}
+
+/*Buttons*/
+.button {
+    display: block;
+    position: relative;
+}
+
+.button button {
+	float: right;
+	padding: 15px 20px 15px 20px;
+	margin: 0;
+
+	background: #777777;
+    background: -webkit-gradient(linear, left top, left bottom, from(#777777), to(#888888));
+    background: -moz-linear-gradient(top,  #777777,  #888888);	
+	border: 3px solid #777777;
+}
+
+.button button:hover {
+	background: #888888;
+	border-color: #888888;
+}
+
+.button button:active {
+	border: none;
+	-moz-box-shadow:inset 2px 2px 4px rgba(0,0,0,0.3);
+	/* Safari v3.0+ and by Chrome v0.2+ */
+	-webkit-box-shadow:inset 2px 2px 4px rgba(0,0,0,0.3);
+	/* Firefox v4.0+ , Safari v5.1+ , Chrome v10.0+, IE v10+ and by Opera v10.5+ */
+	box-shadow:inset 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.button a button {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.response {
+	float: right;
+}
+
+.submit_button {
+	padding: 10px 10px 10px 10px;
+	margin: 0;
+	background: #777777;
+    background: -webkit-gradient(linear, left top, left bottom, from(#777777), to(#888888));
+    background: -moz-linear-gradient(top,  #777777,  #888888);	
+	border: 1px solid #777777;
+	color: #ffffff;
+	float: right;
+}
+
+.submit_button:hover {
+	background: #888888;
+	border-color: #888888;
+}
+
+.submit_button:active {
+	border: none;
+	-moz-box-shadow:inset 2px 2px 4px rgba(0,0,0,0.3);
+	/* Safari v3.0+ and by Chrome v0.2+ */
+	-webkit-box-shadow:inset 2px 2px 4px rgba(0,0,0,0.3);
+	/* Firefox v4.0+ , Safari v5.1+ , Chrome v10.0+, IE v10+ and by Opera v10.5+ */
+	box-shadow:inset 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+/*Textbox*/
+textarea {
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+.email {
+	width: 520px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.email:focus,.message:focus {
+	outline: none;
+	border: 1px solid #AAAAAA;
+  	background: #dddddd;
+  	transition: all 0.3s ease-in-out;
+  	-webkit-transition: all 0.3s ease-in-out;
+  	-moz-transition: all 0.3s ease-in-out;
+}
+
+.message {
+	width: 520px;
+	height: 200px;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.reveal-modal h2 {
+	border-bottom: none;
+	margin: 0;
+}
+
+

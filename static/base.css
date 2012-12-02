@@ -1,0 +1,183 @@
+body {
+	background: url(../images/dust.png) repeat;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+}
+
+/*Navigation*/
+nav {
+	background-image:-moz-linear-gradient(50% 0% -90deg,rgb(221,221,221) 0%,rgb(204,204,204) 100%); 
+	/* safari v4.0+ and by Chrome v3.0+ */
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(221,221,221)),color-stop(1, rgb(204,204,204)));
+	/* Chrome v10.0+ and by safari nightly build*/
+	background-image:-webkit-linear-gradient(-90deg,rgb(221,221,221) 0%,rgb(204,204,204) 100%);
+	/* Opera v11.10+ */
+	background-image:-o-linear-gradient(-90deg,rgb(221,221,221) 0%,rgb(204,204,204) 100%);
+	/* IE v10+ */
+	background-image:-ms-linear-gradient(-90deg,rgb(221,221,221) 0%,rgb(204,204,204) 100%);
+	background-image:linear-gradient(-90deg,rgb(221,221,221) 0%,rgb(204,204,204) 100%);
+	
+	/* Firefox v3.5+ */
+	-moz-box-shadow:2px 2px 4px rgba(0,0,0,0.53);
+	/* Safari v3.0+ and by Chrome v0.2+ */
+	-webkit-box-shadow:2px 2px 4px rgba(0,0,0,0.53);
+	/* Firefox v4.0+ , Safari v5.1+ , Chrome v10.0+, IE v10+ and by Opera v10.5+ */
+	box-shadow:2px 2px 4px rgba(0,0,0,0.53);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffdddddd,endColorstr=#ffcccccc,GradientType=0)
+		progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color=#87000000,Positive=true)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffdddddd,endColorstr=#ffcccccc,GradientType=0)
+		progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color=#87000000,Positive=true);
+
+	width:100%;
+	height:51px;
+	margin: 0;
+	margin-bottom: 36px;
+	padding: 0;
+	position: fixed;
+	z-index: 2;
+}
+
+nav header {
+	margin: 0;
+	margin-top: 10px;
+	padding: 0;
+}
+
+nav header img {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul {
+	margin: 0;
+	margin-top: 18px;
+	padding: 0;
+	text-align: right;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000000;
+	padding: 18px 10px 14px 10px;
+}
+
+nav ul li:last-child a{
+	margin-right: 0;
+}
+
+nav li a:hover {
+	background: #DDDDDD;
+
+	/* Firefox v3.5+ */
+	-moz-box-shadow:inset 2px 2px 4px rgba(0,0,0,0.3);
+	/* Safari v3.0+ and by Chrome v0.2+ */
+	-webkit-box-shadow:inset 2px 2px 4px rgba(0,0,0,0.3);
+	/* Firefox v4.0+ , Safari v5.1+ , Chrome v10.0+, IE v10+ and by Opera v10.5+ */
+	box-shadow:inset 2px 2px 4px rgba(0,0,0,0.3);
+
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.5s ease;
+}
+
+.fix {
+	padding-left: 10px;
+}
+
+/*Smaller Navigation*/
+.hidden {
+	text-align: left;
+}
+
+.hidden li {
+	display: none;
+}
+
+@media only screen and (max-width: 767px) {
+	.hidden li {
+		display: inline;
+		font-size: 14px;
+	}	
+	.fix li {
+		display: none;
+	}
+}
+
+@media only screen and (min-width : 0px) and (max-width : 480px) {
+	.hidden li {
+		display: inline;
+		font-size: 10px;
+	}	
+	.hidden li a {
+		padding: 25px 10px 15px 10px;
+	}
+}
+
+/*City Image*/
+.image {
+	margin-top: 64px;
+	position: relative;
+}
+
+.image h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 	
+   width: 100%; 
+}	
+
+.image h2 span {
+   color: white;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+h2 span.spacer {
+   padding:0 5px;
+}
+
+/*Main Body*/
+.main_body h2{
+	border-bottom: solid 2px #AAAAAA;
+	padding-bottom: 10px;
+	letter-spacing: -1`px;
+}
+
+.main_body p {
+	line-height: 1.5em;
+}
+
+/*Footer*/
+footer {
+	border-top: 2px solid #AAAAAA;
+	font-size: 14px;
+}
+
+footer .left {
+	float: left;
+}
+
+footer .right {
+	float: right;
+}
+
+footer a {
+	text-decoration: none;
+	color: #999999;
+}
+
+footer a:hover {
+	color: #000000;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.5s ease;
+}
+
+
+
